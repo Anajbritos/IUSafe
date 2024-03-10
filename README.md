@@ -48,7 +48,7 @@ Baixe a collection clicando no link abaixo:
 ## Possíveis Melhorias
 - Tratativas de exceções de erros criando próprias exceptions e mapeando-as.
 - Validações para o banco de dados, utilizando hibernate.
-- Usar Teraform para automatizar a subida para a aws (atualmente está manual na máquina).
+- Usar Terraform para automatizar a subida para a aws (atualmente está manual na máquina).
 - Configuração de enviroment de ambiente nas properties.
 
 
