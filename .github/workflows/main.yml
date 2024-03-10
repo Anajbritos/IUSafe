@@ -12,6 +12,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup JDK
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '17'
+
       - name: Build Project
         run: ./mvnw compile
 
@@ -21,6 +27,12 @@ jobs:
     steps:
       - name: Checkout
         uses: action/checkout@v4
+
+      - name: Setup JDK
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '17'
 
       - name: Run Test
         run: ./mvnw test
