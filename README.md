@@ -29,6 +29,12 @@ Após inicializado o banco, execute a aplicação com o seguinte comando:
 
 A aplicação estará disponivel em `http://localhost:8080`
 
+
+
+https://github.com/Anajbritos/IUSafe/assets/92999938/966a2706-873e-476b-9c2a-8ccba6908b07
+
+
+
 ## Documentação da API:
 
 A API é documentada usando o Swagger. Com a aplicação em execução você pode acessar a documentação em:
